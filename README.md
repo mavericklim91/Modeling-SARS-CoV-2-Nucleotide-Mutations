@@ -7,9 +7,9 @@
 **Source**
 > This folder contains the python source code for analysing the mutation dynamics of the SARS-CoV-2 genome.
 * main.py
-> This python script contains the main driver code to run our model analysis.
+  > This python script contains the main driver code to run our model analysis.
 * seq.py
-> This python script contains the supporting functions for pre-processing of the raw genome sequences.
+  > This python script contains the supporting functions for pre-processing of the raw genome sequences.
 
 **Data**
 > This folder contains the genome sequence data exported from GISAID EpiFlu / NCBI Genbank database
@@ -17,7 +17,7 @@
 * Text header contains relevant metadata on each sample (sequence ID, collection date, country of origin)
 * Text body contains a string of characters representing the corresponding RNA nucleotides (A,G,T,C)
 
-**Sample file:**
+* **Sample file:**
          ![](figures/image6.png)
 
 
