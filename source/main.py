@@ -12,7 +12,7 @@ import seaborn as sb
 import numpy as np
 import scipy.stats as ss
 from matplotlib.patches import Patch
-from gisaid_test import split_seq, convert_seq, mut_finder, mut_dist
+from seq import split_seq, convert_seq, mut_finder, mut_dist
 
 # File names repository
 file_name = 'gisaid_test.fasta'
