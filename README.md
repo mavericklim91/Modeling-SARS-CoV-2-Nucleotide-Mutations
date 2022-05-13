@@ -22,7 +22,7 @@ This folder contains the genome sequence data exported from GISAID EpiFlu / NCBI
 * Text body contains a string of characters representing the corresponding RNA nucleotides (A,G,T,C)
 
 > **Sample data file (truncated):**   
-          
+>           
 > ![](figures/image6.png)
 
 ## Figures
