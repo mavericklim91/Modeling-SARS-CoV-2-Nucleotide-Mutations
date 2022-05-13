@@ -117,13 +117,3 @@ plt.ylabel('log Frequency')
 plt.xlabel('Distance')
 plt.savefig('Long_Distance_Histograms_logscale.png', dpi=200)
 plt.show()
-
-# Sanity checks
-print("\n-------sanity checks------")
-print('Length of converted array:', len(converted_arr))
-print(len(distances))
-print(distances)
-print(sorted(distances))
-print(sum(distances))
-print(sum(distances)/len(distances))
-
