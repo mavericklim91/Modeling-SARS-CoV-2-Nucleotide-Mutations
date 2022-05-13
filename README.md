@@ -1,23 +1,23 @@
 # Modeling-SARS-CoV-2-Nucleotide-Mutations
 
-Description
+**Description**
 > This directory contains the source code, data and figures for the research article: 
 * Modeling-SARS-CoV-2-Nucleotide-Mutations-as-a-Stochastic-Process
 
-Source
-> This folder contains the source code for nucleotide
+**Source**
+> This folder contains the python source code for analysing the mutation dynamics of the SARS-CoV-2 genome.
 * main.py
-> main driver code
+> This python script contains the main driver code to run our model analysis.
 * seq.py
-> code functions for pre-processing of raw genome sequences
+> This python script contains the supporting functions for pre-processing of the raw genome sequences.
 
-Data
+**Data**
 > This folder contains the genome sequence data exported from GISAID EpiFlu / NCBI Genbank database
 * Each data file is provided in a variety of readable text formats (.fasta, .aln, .txt)
 * Text header contains relevant metadata on each sample (sequence ID, collection date, country of origin)
 * Text body contains a string of characters representing the corresponding RNA nucleotides (A,G,T,C)
-* Sample file:
+** Sample file:**
 
-* ![](figures/image6.png)
+    ![](figures/image6.png)
 
 
