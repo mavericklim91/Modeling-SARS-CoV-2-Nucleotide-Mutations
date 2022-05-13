@@ -29,6 +29,6 @@ This folder contains the genome sequence data exported from GISAID EpiFlu / NCBI
 This folder contains all the output figures generated from our analyses.
 
 ## How to Run the Code:
-* Download the main.py, seq.py python scripts from _source_ folder and place them in a directory. 
+* Download the _main.py_, _seq.py_ python scripts from _source_ folder and place them in a directory. 
 * Download the sequence text files from _data_ folder and place them in the same directory as the python scripts.
-* Run the script Main_Final.py file and check your directory for the output figures.
+* Run the script _main.py_ file and check your directory for the output figures.
