@@ -1,7 +1,7 @@
 # Modeling-SARS-CoV-2-Nucleotide-Mutations
 
 ## Description
-This directory is comprised of folders containing the source code, data and figures for the research article: 
+This directory comprises the folders containing the source code, data and figures for the research article: 
 > Modeling-SARS-CoV-2-Nucleotide-Mutations-as-a-Stochastic-Process
 
 ## Source
@@ -26,4 +26,4 @@ This folder contains the genome sequence data exported from GISAID EpiFlu / NCBI
 ![](figures/image6.png)
 
 ## Figures
-> This folder contains all the output figures generated from our analyses
+This folder contains all the output figures generated from our analyses
