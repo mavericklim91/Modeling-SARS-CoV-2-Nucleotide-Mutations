@@ -1,10 +1,10 @@
 # Modeling-SARS-CoV-2-Nucleotide-Mutations
 
 **Description**
-> This directory contains the source code, data and figures for the research article: 
+> This directory is comprised of folders containing the source code, data and figures for the research article: 
 * Modeling-SARS-CoV-2-Nucleotide-Mutations-as-a-Stochastic-Process
 
-**Source**
+## Source
 > This folder contains the python source code for analysing the mutation dynamics of the SARS-CoV-2 genome
 * main.py
 > This python script contains the main driver code for our model and analysis
