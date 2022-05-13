@@ -6,9 +6,13 @@ This directory is comprised of folders containing the source code, data and figu
 
 ## Source
 This folder contains the python source code for analysing the mutation dynamics of the SARS-CoV-2 genome:
+
 > main.py
-This python script contains the main driver code for our model and analysis
+
+* This python script contains the main driver code for our model and analysis
+
 > seq.py
+
 * This python script contains the supporting functions for pre-processing of the raw genome sequences
 
 ## Data
