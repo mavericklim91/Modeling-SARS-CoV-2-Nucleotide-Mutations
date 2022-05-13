@@ -15,5 +15,6 @@ Data
 > This folder contains the genome sequence data exported from GISAID EpiFlu / NCBI Genbank database
 * Each data file is provided in text format (.fasta, .aln, .txt)
 * Sample file:
+![](figures/image6.png)
 
 
