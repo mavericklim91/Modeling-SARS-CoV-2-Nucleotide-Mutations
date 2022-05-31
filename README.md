@@ -7,9 +7,13 @@ This directory comprises the folders containing the source code, data and figure
 ## Source
 This folder contains the python source code for analysing the mutation dynamics of the SARS-CoV-2 genome:
 
-> main.py
+> spatial.py
 
-* This python script contains the main driver code for our model and analysis
+* This python script contains the main driver code for our spatial model and analysis
+
+> time_series.py
+
+* This python script contains the main driver code for our time-series model and analysis
 
 > seq.py
 
@@ -29,6 +33,6 @@ This folder contains the genome sequence data exported from GISAID EpiFlu / NCBI
 This folder contains all the output figures generated from our analyses.
 
 ## How to Run the Code:
-* Download the _main.py_, _seq.py_ python scripts from _source_ folder and place them in a directory. 
+* Download the _spatial.py_, _time-series.py_, _seq.py_ python scripts from _source_ folder and place them in a directory. 
 * Download the sequence text files from _data_ folder and place them in the same directory as the python scripts.
-* Run the script _main.py_ file and check your directory for the output figures.
+* Run the scripts _spatial.py_ and _time-series.py_, then check your directory for the output figures.
