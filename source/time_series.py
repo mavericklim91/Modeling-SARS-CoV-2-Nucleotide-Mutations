@@ -3,13 +3,13 @@
 Main program for mutation model analysis
 1. Ingest sequences.fasta file containing nucleotide sequences
 2. Split individual sequences into a sequence list
-3. Converts sequences into numpy array (150x200)
-4. Plot the transition matrices as a stacked bar chart
-5. Plot the simulated time-series
+3. Count frequency of nucleotide substitutions
+4. Compute Markov transition matrix
+4. Plot stacked bar chart of transition probabilities
 """
 import matplotlib.pyplot as plt
 import numpy as np
-from gisaid_test import split_seq, convert_seq
+from seq import split_seq, convert_seq
 
 # File names repository
 file_name = 'gisaid_test.fasta'
