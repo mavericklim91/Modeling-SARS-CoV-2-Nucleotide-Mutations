@@ -65,19 +65,27 @@ trans_mat = mut_mat / total
 print('\nTransition Rate Matrix:\n',trans_mat)
 
 # Plot stacked bar chart of transition probabilities
-for i in range(len(trans_mat)):
-    plt.bar(['T','C','A','G'], trans_mat[i], 1)
+x = ['T','C','A','G']
+t = trans_mat[0]
+c = trans_mat[1]
+a = trans_mat[2]
+g = trans_mat[3]
 
-plt.text(-0.2,0.275,'0.275')
-plt.text(0.8,0.275,'0.272')
-plt.text(1.8,0.11,'0.103')
-plt.text(2.8,0.11,'0.101')
+plt.bar(x, t, color='blue', label='T')
+plt.bar(x, c, bottom=t, color='red', label='C')
+plt.bar(x, a, bottom=t+c, color='orange', label='A')
+plt.bar(x, g, bottom=t+c+a, color='purple', label='G')
 
-plt.ylim(0, 0.3)
+plt.text(-0.18,sum(trans_mat[0,:]),round(sum(trans_mat[0,:]),3))
+plt.text(0.8,0.312,round(sum(trans_mat[1,:]),3))
+plt.text(1.8,0.146,round(sum(trans_mat[2,:]),3))
+plt.text(2.8,0.198,round(sum(trans_mat[3,:]),3))
+
+plt.ylim(0, 0.4)
 plt.ylabel('Transition Probability')
 plt.legend(['T','C','A','G'])
 
-plt.savefig('Mutation_Rate_Stacked')
+plt.savefig('Transition_Probability_Stacked')
 plt.show()
 
 
