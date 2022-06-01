@@ -7,6 +7,10 @@ This directory comprises the folders containing the source code, data and figure
 ## Source
 This folder contains the python source code for analysing the mutation dynamics of the SARS-CoV-2 genome:
 
+> seq.py
+
+* This python script contains the supporting functions for pre-processing of the raw genome sequences
+
 > spatial.py
 
 * This python script contains the main driver code for our spatial model and analysis
@@ -14,10 +18,6 @@ This folder contains the python source code for analysing the mutation dynamics 
 > time_series.py
 
 * This python script contains the main driver code for our time-series model and analysis
-
-> seq.py
-
-* This python script contains the supporting functions for pre-processing of the raw genome sequences
 
 ## Data
 This folder contains the genome sequence data exported from GISAID EpiFlu / NCBI Genbank database:
