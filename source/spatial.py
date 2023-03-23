@@ -100,6 +100,14 @@ plt.xlabel('Distance')
 plt.savefig('Short_Distance_Histograms_logscale.png', dpi=200)
 plt.show()
 
+# Test Linear Regression in Short Nucleotide Distances
+y = Y.reshape((-1,1))
+x = X.reshape((-1,1))
+
+model = LinearRegression().fit(x, y)
+r_sq = model.score(x, y)
+print(f"R-squared coefficient for short range distances: {r_sq}")
+
 # Plot Long Distances (>500) on log-linear scale
 dist = np.array(distances)
 long = dist[dist > 500]
